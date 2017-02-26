@@ -15,6 +15,7 @@ import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 })
 export class TeslaCarComponent {
   @Input() wheelsize: number;
+  @Input() speed: number;
 
   constructor() { }
 
